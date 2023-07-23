@@ -1,7 +1,21 @@
 {
   "name": "echo-tester",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "git@github.com:bumblebee2566/echo-tester.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --project ./tsconfig.json ./app.ts",
+    "build": "tsc --build ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  }
 }
