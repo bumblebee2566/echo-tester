@@ -1,0 +1,7 @@
+{
+  "name": "echo-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bumblebee2566/echo-tester.git",
+  "license": "MIT"
+}
