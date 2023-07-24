@@ -14,4 +14,6 @@ program
 
 const options = program.opts();
 
-if (options.get)
+if (options.get) {
+  console.log('get');
+}
